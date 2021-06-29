@@ -1,0 +1,30 @@
+.header {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 92vw;
+  height: 90vh;
+  &_jumbo {
+    border: 1px solid red;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    background-image: url('./../assets/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &_nav {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    & > ul {
+      border: 1px solid red;
+      display: flex;
+      & > li:not(:first-of-type) {
+        margin-left: 2rem;
+      }
+    }
+  }
+}

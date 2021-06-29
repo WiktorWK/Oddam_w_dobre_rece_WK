@@ -1,0 +1,15 @@
+.btn {
+  &_squere {
+    width: 10rem;
+    height: 4rem;
+    border: 1px solid red;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &_text_div{
+      text-align: center;
+    }
+  }
+}

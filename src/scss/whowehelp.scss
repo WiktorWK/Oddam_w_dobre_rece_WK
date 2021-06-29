@@ -1,0 +1,32 @@
+.whowehelp {
+  &_text {
+    width: 33%;
+    text-align: center;
+  }
+  &_list {
+    box-sizing: border-box;
+  }
+  &_li {
+    box-sizing: border-box;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+  }
+  &_numbers {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    & > div:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+  &_number {
+    border: 1px solid red;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
